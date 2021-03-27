@@ -1,0 +1,27 @@
+fragment LocationWeather on City {
+  id
+  name
+  country
+  weather {
+    summary {
+      title
+      description
+      icon
+    }
+    temperature {
+      actual
+      feelsLike
+      min
+      max
+    }
+    wind {
+      speed
+      deg
+    }
+    clouds {
+      all
+      visibility
+      humidity
+    }
+  }
+}

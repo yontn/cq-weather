@@ -1,4 +1,5 @@
 fragment LocationWeather on City {
+  __typename
   id
   name
   country
